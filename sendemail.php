@@ -20,21 +20,21 @@
 
     if(empty($name)){
 
-        $result = array( 'response' => 'error', 'empty'=>'name', 'message'=>'<strong>Error!</strong>&nbsp; Naam is verplicht.' );
+        $result = array( 'response' => 'error', 'empty'=>'name', 'message'=>'<strong>Foutje!</strong>&nbsp; Naam is verplicht.' );
         echo json_encode($result );
         die;
     } 
 
     if(empty($email)){
 
-        $result = array( 'response' => 'error', 'empty'=>'email', 'message'=>'<strong>Error!</strong>&nbsp; E-mail is verplicht.' );
+        $result = array( 'response' => 'error', 'empty'=>'email', 'message'=>'<strong>Foutje!</strong>&nbsp; E-mail is verplicht.' );
         echo json_encode($result );
         die;
     } 
 
     if(empty($message)){
 
-         $result = array( 'response' => 'error', 'empty'=>'message', 'message'=>'<strong>Error!</strong>&nbsp; Bericht is leeg.' );
+         $result = array( 'response' => 'error', 'empty'=>'message', 'message'=>'<strong>Foutje!</strong>&nbsp; Bericht is leeg.' );
          echo json_encode($result );
          die;
     }

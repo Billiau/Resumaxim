@@ -29,11 +29,15 @@ jQuery(function ($) {
      * Preloader
     /* ---------------------------------------------- */
 
-    $(window).ready(function() {
-        $('#pre-status').fadeOut();
-        $('#tt-preloader').delay(350).fadeOut('slow');
-    });
+//    $(window).ready(function() {
+//        $('#pre-status').fadeOut();
+//        $('#tt-preloader').delay(150).fadeOut('slow');
+//    });
 
+    setTimeout(function(){        
+        $('#pre-status').fadeOut();
+        $('#tt-preloader').delay(150).fadeOut('slow');
+    }, 10);
 
 
 
@@ -232,7 +236,7 @@ jQuery(function ($) {
 
 
     // -------------------------------------------------------------
-    // Vidio auto play
+    // Video auto play
     // -------------------------------------------------------------
     (function () {
     
