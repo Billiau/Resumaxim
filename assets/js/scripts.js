@@ -15,7 +15,7 @@ Author URL: trendytheme.net
     = More skill
     = Shuffle
     = Magnific Popup
-    = Vidio auto play
+    = Video auto play
     = Fit Vids
     = Google Map
 
@@ -331,7 +331,7 @@ jQuery(function ($) {
     // -------------------------------------------------------------
 
     (function () {
-        var myLatlng = new google.maps.LatLng(50.890111, 4.694809);
+        var myLatlng = new google.maps.LatLng(41.372641, -74.687387);
 
             var styles = [
                 {
