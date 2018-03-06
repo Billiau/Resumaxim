@@ -14,7 +14,7 @@
     $email       = strip_tags($_POST['email']);
     $phone      = strip_tags($_POST['phone']);
     $name       = strip_tags($_POST['name']);
-    $message    = nl2br( htmlspecialchars($_POST['message'], ENT_QUOTES) );
+    $message  = nl2br( htmlspecialchars($_POST['message'], ENT_QUOTES) );
     $result     = array();
 
 
