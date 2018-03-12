@@ -1,12 +1,4 @@
 /*
-    Author: TrendyTheme
-    Template: I AM X
-    Version: 1.2
-    URL: http://demo.trendytheme.net/iamx/html
-*/
-
-
-/*
 ====================================
 ------------------------------------
     1. General
@@ -64,7 +56,7 @@ a:hover {
 }
 
 
-/* Transition elsements
+/* Transition elements
 -------------------------------------------------------- */
 .navbar a,
 .form-control {
@@ -325,7 +317,7 @@ ul.list-check li::before {
 
 
 #home {
-	background: url(../images/home2.jpg) no-repeat center center;
+	background: url(../images/home4.jpg) no-repeat center center;
 	-webkit-background-attachment: fixed;
                   background-attachment: fixed;
 	background-color: #222;
@@ -335,7 +327,7 @@ ul.list-check li::before {
 }
 #home:before {
 	content: "";
-	background-color: rgba(26, 30, 35, 0.85);
+	background-color: rgba(26, 30, 35, 0.60);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -358,7 +350,7 @@ ul.list-check li::before {
 }
 
 .intro h1{
-	font-size: 60px;
+	font-size: 70px;
 	line-height: 80px;
 	margin-bottom: 16px;
 	color: #52b3d9;
@@ -369,13 +361,14 @@ ul.list-check li::before {
 .intro p{
 	color: #f7f7f7;
 	margin-bottom: 40px;
+                  font-size: 1.3em;
 }
 
 .intro-sub {
 	color: #fff;
-	font-size: 24px;
+	font-size: 44px;
 	line-height: 32px;
-	font-weight: 700;
+	font-weight: 400;
 	text-transform: uppercase;
 	display: block;
 	margin-bottom: 20px;
@@ -676,7 +669,14 @@ Resume Timeline
 -----------------------------------------------------------*/
 .resume-title h3{
     text-align: center;
+    padding: 0.2em;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #2c3e50;
+    font-weight:100;
+    
 }
+
 .resume-section > div > div{
     margin-bottom: 60px;
 }
@@ -1322,7 +1322,7 @@ Resume Timeline
 /* === Footer Wrapper === */
 .footer-wrapper {
     background: #1a1e23;
-    padding: 13px 0;
+    padding: 12px 0;
     color: #fff;
   
 }
