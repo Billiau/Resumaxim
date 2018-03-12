@@ -350,7 +350,7 @@ ul.list-check li::before {
 }
 
 .intro h1{
-	font-size: 70px;
+	font-size: 4.5em;
 	line-height: 80px;
 	margin-bottom: 16px;
 	color: #52b3d9;
@@ -361,12 +361,12 @@ ul.list-check li::before {
 .intro p{
 	color: #f7f7f7;
 	margin-bottom: 40px;
-                  font-size: 1.3em;
+                  font-size: 1em;
 }
 
 .intro-sub {
 	color: #fff;
-	font-size: 44px;
+	font-size: 2em;
 	line-height: 32px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -670,11 +670,14 @@ Resume Timeline
 .resume-title h3{
     text-align: center;
     padding: 0.2em;
-    border-radius: 5px;
+    border-radius: 3px;
     color: #fff;
-    background-color: #2c3e50;
     font-weight:100;
-    
+    background-color: #2c3e50;
+}
+
+#opleidingen h3 {
+    background-color: #68c3a3;
 }
 
 .resume-section > div > div{
@@ -785,13 +788,11 @@ Resume Timeline
     left: 20px;
 }
 
-
 .timeline>li .posted-date .month {
     font-size: 18px;
     line-height: 20px;
     font-weight: 700;
     display: block;
-    color: #2c3e50;
     top: 0;
     float: left;
 }
@@ -829,7 +830,25 @@ Resume Timeline
     margin-bottom: 20px;
 }
 
+.timeline>li .opl {
+    color: #68c3a3;
+}
 
+.timeline>li .posted-date .month opl {
+    color: #68c3a3;
+}
+
+
+
+.timeline>li .opl:hover {
+    background: #68c3a3;
+    color: #fff;
+}
+
+.timeline>li .werk:hover {
+    background:#2c3e50;
+    color: #fff;
+}
 
 
 
@@ -878,8 +897,13 @@ Resume Timeline
     z-index: -1;
 }
 
-.timeline>li .timeline-content:hover {
+.timeline>li .opl:hover {
     background: #68c3a3;
+    color: #fff;
+}
+
+.timeline>li .werk:hover {
+    background:#2c3e50;
     color: #fff;
 }
 
@@ -939,7 +963,6 @@ Resume Timeline
 
 .timeline>li.timeline-inverted .timeline-panel::after {
     right: 100%;
-    margin-right:-2px;
     border-right: 12px solid #FFFFFF;
     -webkit-transition:all 400ms;
     -moz-transition:all 400ms;
@@ -947,7 +970,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::after {
-    border-right: 12px solid #68c3a3;
+    border-right: 12px solid #2c3e50;
     border-left: 0;
 }
 
